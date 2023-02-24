@@ -7,7 +7,7 @@ This is the project for the third course in the  [Udacity Self-Driving Car Engin
 
 The objective of this project was to achieve accurate localization of a simulated car in a distance pose error of 1.2m, while traveling a minimum of 170m from its starting position. The car was equipped with a lidar that generated regular scans, and a point cloud map (map.pcd) was provided. The project utilized the Iterative Closest Point (ICP) and Normal Distribution Transform (NDT) algorithms for matching lidar scans to the point cloud map. The implementation of both algorithms was developed from scratch. Ultimately, the project achieved the goal of accurate localization of the car in simulation while adhering to the distance pose error constraint.
 
-![this is a image](/img/png_to_gif.gif)
+![this is a image](/img/scanpass.jpg)
 
 
 ## Code Snippets
@@ -152,6 +152,12 @@ Eigen::Matrix4d ICP(PointCloudT::Ptr target, PointCloudT::Ptr source, Pose start
 }
 
 ```
+
+## Animation:
+
+![this is a image](/img/png_to_gif1.gif)
+
+
 
 
 ## Udacity Project Review:
